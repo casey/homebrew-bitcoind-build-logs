@@ -1,0 +1,2014 @@
+...found 1 target...
+...found 11 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/config/checks/architecture/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/config/checks/architecture/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug
+
+        mkdir -p "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug"
+    
+common.mkdir bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi
+
+        mkdir -p "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi"
+    
+common.mkdir bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/32.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O0 -fno-inline -Wall -g -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1  -I"."  -c -o "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/32.o" "libs/config/checks/architecture/32.cpp"
+
+libs/config/checks/architecture/32.cpp:9:10: error: 'test' declared as an array with a negative size
+int test[sizeof(void*) == 4? 1 : -1];
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/32.o...
+...failed updating 1 target...
+...updated 4 targets...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/64.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O0 -fno-inline -Wall -g -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1  -I"."  -c -o "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/64.o" "libs/config/checks/architecture/64.cpp"
+
+...updated 1 target...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/arm.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O0 -fno-inline -Wall -g -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1  -I"."  -c -o "bin.v2/libs/config/checks/architecture/darwin-13.1.6/debug/threading-multi/visibility-hidden/arm.o" "libs/config/checks/architecture/arm.cpp"
+
+...updated 1 target...
+...found 108 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/context
+
+        mkdir -p "bin.v2/libs/context"
+    
+common.mkdir bin.v2/libs/context/build
+
+        mkdir -p "bin.v2/libs/context/build"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_mutex_check.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DBOOST_CONTEXT_DYN_LINK=1 -DBOOST_CONTEXT_SOURCE -DNDEBUG  -I"."  -c -o "bin.v2/libs/context/build/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_mutex_check.o" "libs/context/src/../build/cxx11_hdr_mutex.cpp"
+
+...updated 7 targets...
+...patience...
+...found 191 targets...
+...updating 8 targets...
+common.mkdir bin.v2/libs/thread
+
+        mkdir -p "bin.v2/libs/thread"
+    
+common.mkdir bin.v2/libs/thread/build
+
+        mkdir -p "bin.v2/libs/thread/build"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o" "libs/thread/src/../build/has_atomic_flag_lockfree_test.cpp"
+
+darwin.link bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_atomic_flag_lockfree
+
+    "clang++"  -o "bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_atomic_flag_lockfree" "bin.v2/libs/thread/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o"       -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 8 targets...
+...found 142 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/filesystem
+
+        mkdir -p "bin.v2/libs/filesystem"
+    
+common.mkdir bin.v2/libs/filesystem/config
+
+        mkdir -p "bin.v2/libs/filesystem/config"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtim.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtim.o" "libs/filesystem/config/has_stat_st_mtim.cpp"
+
+libs/filesystem/config/has_stat_st_mtim.cpp:17:8: error: no member named 'st_mtim' in 'stat'
+    st.st_mtim.tv_nsec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtim.o...
+...failed updating 1 target...
+...updated 6 targets...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtimensec.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtimensec.o" "libs/filesystem/config/has_stat_st_mtimensec.cpp"
+
+libs/filesystem/config/has_stat_st_mtimensec.cpp:17:8: error: no member named 'st_mtimensec' in 'stat'
+    st.st_mtimensec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtimensec.o...
+...failed updating 1 target...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtimespec.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_mtimespec.o" "libs/filesystem/config/has_stat_st_mtimespec.cpp"
+
+...updated 1 target...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtim.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtim.o" "libs/filesystem/config/has_stat_st_birthtim.cpp"
+
+libs/filesystem/config/has_stat_st_birthtim.cpp:17:8: error: no member named 'st_birthtim' in 'stat'
+    st.st_birthtim.tv_sec = 1;
+    ~~ ^
+libs/filesystem/config/has_stat_st_birthtim.cpp:18:8: error: no member named 'st_birthtim' in 'stat'
+    st.st_birthtim.tv_nsec = 10;
+    ~~ ^
+2 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtim.o...
+...failed updating 1 target...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o" "libs/filesystem/config/has_stat_st_birthtimensec.cpp"
+
+libs/filesystem/config/has_stat_st_birthtimensec.cpp:18:8: error: no member named 'st_birthtimensec' in 'stat'
+    st.st_birthtimensec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o...
+...failed updating 1 target...
+...found 2 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtimespec.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_stat_st_birthtimespec.o" "libs/filesystem/config/has_stat_st_birthtimespec.cpp"
+
+...updated 1 target...
+...found 3 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx.o" "libs/filesystem/config/has_statx.cpp"
+
+libs/filesystem/config/has_statx.cpp:17:18: error: variable has incomplete type 'struct statx'
+    struct statx st;
+                 ^
+libs/filesystem/config/has_statx.cpp:17:12: note: forward declaration of 'statx'
+    struct statx st;
+           ^
+libs/filesystem/config/has_statx.cpp:18:58: error: use of undeclared identifier 'AT_NO_AUTOMOUNT'
+    int res = statx(AT_FDCWD, ".", AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT, STATX_BTIME, &st);
+                                                         ^
+libs/filesystem/config/has_statx.cpp:18:75: error: use of undeclared identifier 'STATX_BTIME'
+    int res = statx(AT_FDCWD, ".", AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT, STATX_BTIME, &st);
+                                                                          ^
+3 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx.o...
+...failed updating 1 target...
+...found 4 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx_syscall.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx_syscall.o" "libs/filesystem/config/has_statx_syscall.cpp"
+
+libs/filesystem/config/has_statx_syscall.cpp:11:10: fatal error: 'linux/stat.h' file not found
+#include <linux/stat.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_statx_syscall.o...
+...failed updating 1 target...
+...found 6 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_auto_declarations.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_AUTO_DECLARATIONS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_auto_declarations.o" "libs/config/checks/test_case.cpp"
+
+...updated 5 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_constexpr.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_CONSTEXPR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_constexpr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_defaulted_functions.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_DEFAULTED_FUNCTIONS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_defaulted_functions.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_final.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_FINAL  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_final.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_mutex.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_MUTEX  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_mutex.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_tuple.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_TUPLE  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_tuple.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_lambdas.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_LAMBDAS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_lambdas.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_noexcept.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NOEXCEPT  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_noexcept.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_nullptr.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NULLPTR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_nullptr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_rvalue_references.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_RVALUE_REFERENCES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_rvalue_references.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_template_aliases.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_TEMPLATE_ALIASES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_template_aliases.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_thread_local.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_THREAD_LOCAL  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_thread_local.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_variadic_templates.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_VARIADIC_TEMPLATES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_variadic_templates.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 177 targets...
+...updating 8 targets...
+common.mkdir bin.v2/libs/regex
+
+        mkdir -p "bin.v2/libs/regex"
+    
+common.mkdir bin.v2/libs/regex/build
+
+        mkdir -p "bin.v2/libs/regex/build"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_test.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DBOOST_HAS_ICU=1 -DNDEBUG  -I"." -I"/opt/homebrew/opt/icu4c/include"  -c -o "bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_test.o" "libs/regex/build/has_icu_test.cpp"
+
+darwin.link bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu
+
+    "clang++" -L"/opt/homebrew/opt/icu4c/bin" -L"/opt/homebrew/opt/icu4c/lib" -o "bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu" "bin.v2/libs/regex/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_test.o"   -licudata -licui18n -licuuc    -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 8 targets...
+...found 10 targets...
+...updating 8 targets...
+common.mkdir bin.v2/standalone
+
+        mkdir -p "bin.v2/standalone"
+    
+common.mkdir bin.v2/standalone/ac
+
+        mkdir -p "bin.v2/standalone/ac"
+    
+
+file /private/tmp/jam6865a9b8.000
+#include <zlib.h>
+
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6"
+    
+text-action bin.v2/standalone/ac/zlib_h.cpp
+
+    cat "/private/tmp/jam6865a9b8.000" > "bin.v2/standalone/ac/zlib_h.cpp"
+
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/zlib_h.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/zlib_h.o" "bin.v2/standalone/ac/zlib_h.cpp"
+
+...updated 8 targets...
+...found 5 targets...
+...updating 3 targets...
+
+file /private/tmp/jam6865a9b9.000
+int main() {}
+text-action bin.v2/standalone/ac/main-z.cpp
+
+    cat "/private/tmp/jam6865a9b9.000" > "bin.v2/standalone/ac/main-z.cpp"
+
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-z.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-z.o" "bin.v2/standalone/ac/main-z.cpp"
+
+darwin.link bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/z
+
+    "clang++"  -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/z" "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-z.o"   -lz    -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 3 targets...
+...found 4 targets...
+...updating 2 targets...
+
+file /private/tmp/jam6865a9ba.000
+#include <bzlib.h>
+
+text-action bin.v2/standalone/ac/bzlib_h.cpp
+
+    cat "/private/tmp/jam6865a9ba.000" > "bin.v2/standalone/ac/bzlib_h.cpp"
+
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/bzlib_h.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/bzlib_h.o" "bin.v2/standalone/ac/bzlib_h.cpp"
+
+...updated 2 targets...
+...found 5 targets...
+...updating 3 targets...
+
+file /private/tmp/jam6865a9bb.000
+int main() {}
+text-action bin.v2/standalone/ac/main-bz2.cpp
+
+    cat "/private/tmp/jam6865a9bb.000" > "bin.v2/standalone/ac/main-bz2.cpp"
+
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-bz2.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-bz2.o" "bin.v2/standalone/ac/main-bz2.cpp"
+
+darwin.link bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/bz2
+
+    "clang++"  -o "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/bz2" "bin.v2/standalone/ac/darwin-13.1.6/release/threading-multi/visibility-hidden/main-bz2.o"   -lbz2    -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 3 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_decltype.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_DECLTYPE  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_decltype.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 7 targets...
+...updating 6 targets...
+common.mkdir bin.v2/libs/json
+
+        mkdir -p "bin.v2/libs/json"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/json/darwin-13.1.6/release/threading-multi/visibility-hidden/check_basic_alignas.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/json/darwin-13.1.6/release/threading-multi/visibility-hidden/check_basic_alignas.o" "libs/json/check/basic_alignas.cpp"
+
+...updated 6 targets...
+...found 10 targets...
+...updating 8 targets...
+common.mkdir bin.v2/libs/locale
+
+        mkdir -p "bin.v2/libs/locale"
+    
+common.mkdir bin.v2/libs/locale/build
+
+        mkdir -p "bin.v2/libs/locale/build"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_obj.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_obj.o" "libs/locale/src/../build/has_iconv.cpp"
+
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv" "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_obj.o"       -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+Undefined symbols for architecture arm64:
+  "_iconv_open", referenced from:
+      _main in has_iconv_libc_obj.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+...failed darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv...
+...failed updating 1 target...
+...updated 7 targets...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_ext.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_ext.o" "libs/locale/src/../build/has_iconv.cpp"
+
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_external_iconv
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_external_iconv" "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_iconv_libc_ext.o"   -liconv    -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 8 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_obj.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_obj.o" "libs/locale/src/../build/has_icu_test.cpp"
+
+libs/locale/src/../build/has_icu_test.cpp:26:12: warning: unused variable 'c' [-Wunused-variable]
+   UChar32 c = ::u_charFromName(U_UNICODE_CHAR_NAME, "GREEK SMALL LETTER ALPHA", &err);
+           ^
+1 warning generated.
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu" "bin.v2/libs/locale/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_icu_obj.o"   -licudata -licui18n -licuuc    -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 11 targets...
+...updating 9 targets...
+common.mkdir bin.v2/libs/log
+
+        mkdir -p "bin.v2/libs/log"
+    
+common.mkdir bin.v2/libs/log/config
+
+        mkdir -p "bin.v2/libs/log/config"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/atomic_int32.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/atomic_int32.o" "libs/log/config/atomic-int32/atomic_int32.cpp"
+
+...updated 9 targets...
+...found 9 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/log/config/native-syslog
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/native_syslog.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/native_syslog.o" "libs/log/config/native-syslog/native_syslog.cpp"
+
+...updated 7 targets...
+...found 8 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o" "libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp"
+
+libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp:17:40: error: use of undeclared identifier 'PTHREAD_MUTEX_ROBUST'
+    pthread_mutexattr_setrobust(&attr, PTHREAD_MUTEX_ROBUST);
+                                       ^
+libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp:26:15: error: use of undeclared identifier 'pthread_mutex_consistent'; did you mean 'pthread_mutex_destroy'?
+        err = pthread_mutex_consistent(&m);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              pthread_mutex_destroy
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include/pthread.h:369:5: note: 'pthread_mutex_destroy' declared here
+int pthread_mutex_destroy(pthread_mutex_t *);
+    ^
+2 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o...
+...failed updating 1 target...
+...updated 6 targets...
+...found 8 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/math
+
+        mkdir -p "bin.v2/libs/math"
+    
+common.mkdir bin.v2/libs/math/config
+
+        mkdir -p "bin.v2/libs/math/config"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_gcc_visibility.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_gcc_visibility.o" "libs/math/config/has_gcc_visibility.cpp"
+
+...updated 7 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/sfinae_expr.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_SFINAE_EXPR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/sfinae_expr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_unified_initialization_syntax.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_UNIFIED_INITIALIZATION_SYNTAX  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_unified_initialization_syntax.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_initializer_list.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_INITIALIZER_LIST  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_initializer_list.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_chrono.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_CHRONO  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_chrono.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_numeric_limits.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NUMERIC_LIMITS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_numeric_limits.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_array.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_ARRAY  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_array.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_atomic.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_ATOMIC  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_atomic.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_type_traits.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_TYPE_TRAITS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_hdr_type_traits.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_allocator.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_ALLOCATOR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_allocator.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_explicit_conversion_operators.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_EXPLICIT_CONVERSION_OPERATORS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_explicit_conversion_operators.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 20 targets...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_long_double_support.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/math/config/darwin-13.1.6/release/threading-multi/visibility-hidden/has_long_double_support.o" "libs/math/config/has_long_double_support.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_static_assert.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_STATIC_ASSERT  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_static_assert.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 9 targets...
+...updating 7 targets...
+common.mkdir bin.v2/libs/nowide
+
+        mkdir -p "bin.v2/libs/nowide"
+    
+common.mkdir bin.v2/libs/nowide/config
+
+        mkdir -p "bin.v2/libs/nowide/config"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_moveable_fstreams.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/cxx11_moveable_fstreams.o" "libs/nowide/config/check_movable_fstreams.cpp"
+
+...updated 7 targets...
+...found 3 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/check_lfs_support.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/check_lfs_support.o" "libs/nowide/config/check_lfs_support.cpp"
+
+darwin.link bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/lfs_support
+
+    "clang++"  -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/lfs_support" "bin.v2/libs/nowide/config/darwin-13.1.6/release/threading-multi/visibility-hidden/check_lfs_support.o"       -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 12 targets...
+...updating 9 targets...
+common.mkdir bin.v2/libs/stacktrace
+
+        mkdir -p "bin.v2/libs/stacktrace"
+    
+common.mkdir bin.v2/libs/stacktrace/build
+
+        mkdir -p "bin.v2/libs/stacktrace/build"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_backtrace.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_backtrace.o" "libs/stacktrace/build/has_backtrace.cpp"
+
+libs/stacktrace/build/has_backtrace.cpp:7:10: fatal error: 'backtrace.h' file not found
+#include <backtrace.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_backtrace.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>libbacktrace_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>has_backtrace.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>libbacktrace.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>libbacktrace_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...updated 6 targets...
+...found 5 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_addr2line.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_addr2line.o" "libs/stacktrace/build/has_addr2line.cpp"
+
+darwin.link bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/addr2line_exe
+
+    "clang++"  -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/addr2line_exe" "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_addr2line.o"       -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+Jamfile</private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/stacktrace/build>.mp_simple_run_action bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/addr2line.output
+
+      bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/addr2line_exe > bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/addr2line.output
+
+sh: /usr/bin/addr2line: No such file or directory
+...updated 3 targets...
+...found 5 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg.o" "libs/stacktrace/build/has_windbg.cpp"
+
+libs/stacktrace/build/has_windbg.cpp:8:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbg_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>has_windbg.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbg.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbg_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...found 4 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg_cached.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg_cached.o" "libs/stacktrace/build/has_windbg_cached.cpp"
+
+libs/stacktrace/build/has_windbg_cached.cpp:11:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden/has_windbg_cached.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbgCached_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>has_windbg_cached.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbgCached.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/threading-multi/visibility-hidden>WinDbgCached_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...found 165 targets...
+...updating 7 targets...
+common.mkdir bin.v2/check
+
+        mkdir -p "bin.v2/check"
+    
+common.mkdir bin.v2/check/predef
+
+        mkdir -p "bin.v2/check/predef"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/threading-multi
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/threading-multi"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DCHECK="BOOST_COMP_GNUC >= BOOST_VERSION_NUMBER(4,3,0)" -DNDEBUG  -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0" -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/include"  -c -o "bin.v2/check/predef/darwin-13.1.6/release/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o" "/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp"
+
+In file included from /private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp:7:
+/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc.h:11:9: error: "FAILED"
+#       error "FAILED"
+        ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o...
+...failed updating 1 target...
+...updated 6 targets...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DCHECK="BOOST_COMP_GNUC >= BOOST_VERSION_NUMBER(4,3,0)" -DNDEBUG  -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0" -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/include"  -c -o "bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o" "/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp"
+
+In file included from /private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp:7:
+/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc.h:11:9: error: "FAILED"
+#       error "FAILED"
+        ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o...
+...failed updating 1 target...
+...updated 3 targets...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_mutex_check.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DBOOST_CONTEXT_SOURCE -DNDEBUG  -I"."  -c -o "bin.v2/libs/context/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_mutex_check.o" "libs/context/src/../build/cxx11_hdr_mutex.cpp"
+
+...updated 4 targets...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o" "libs/thread/src/../build/has_atomic_flag_lockfree_test.cpp"
+
+darwin.link bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree
+
+    "clang++"  -o "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree" "bin.v2/libs/thread/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_atomic_flag_lockfree_test.o"       -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 5 targets...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtim.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtim.o" "libs/filesystem/config/has_stat_st_mtim.cpp"
+
+libs/filesystem/config/has_stat_st_mtim.cpp:17:8: error: no member named 'st_mtim' in 'stat'
+    st.st_mtim.tv_nsec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtim.o...
+...failed updating 1 target...
+...updated 3 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtimensec.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtimensec.o" "libs/filesystem/config/has_stat_st_mtimensec.cpp"
+
+libs/filesystem/config/has_stat_st_mtimensec.cpp:17:8: error: no member named 'st_mtimensec' in 'stat'
+    st.st_mtimensec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtimensec.o...
+...failed updating 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtimespec.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_mtimespec.o" "libs/filesystem/config/has_stat_st_mtimespec.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtim.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtim.o" "libs/filesystem/config/has_stat_st_birthtim.cpp"
+
+libs/filesystem/config/has_stat_st_birthtim.cpp:17:8: error: no member named 'st_birthtim' in 'stat'
+    st.st_birthtim.tv_sec = 1;
+    ~~ ^
+libs/filesystem/config/has_stat_st_birthtim.cpp:18:8: error: no member named 'st_birthtim' in 'stat'
+    st.st_birthtim.tv_nsec = 10;
+    ~~ ^
+2 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtim.o...
+...failed updating 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o" "libs/filesystem/config/has_stat_st_birthtimensec.cpp"
+
+libs/filesystem/config/has_stat_st_birthtimensec.cpp:18:8: error: no member named 'st_birthtimensec' in 'stat'
+    st.st_birthtimensec = 10;
+    ~~ ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtimensec.o...
+...failed updating 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtimespec.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_stat_st_birthtimespec.o" "libs/filesystem/config/has_stat_st_birthtimespec.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx.o" "libs/filesystem/config/has_statx.cpp"
+
+libs/filesystem/config/has_statx.cpp:17:18: error: variable has incomplete type 'struct statx'
+    struct statx st;
+                 ^
+libs/filesystem/config/has_statx.cpp:17:12: note: forward declaration of 'statx'
+    struct statx st;
+           ^
+libs/filesystem/config/has_statx.cpp:18:58: error: use of undeclared identifier 'AT_NO_AUTOMOUNT'
+    int res = statx(AT_FDCWD, ".", AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT, STATX_BTIME, &st);
+                                                         ^
+libs/filesystem/config/has_statx.cpp:18:75: error: use of undeclared identifier 'STATX_BTIME'
+    int res = statx(AT_FDCWD, ".", AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT, STATX_BTIME, &st);
+                                                                          ^
+3 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx.o...
+...failed updating 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx_syscall.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"." -I"libs/filesystem/src"  -c -o "bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx_syscall.o" "libs/filesystem/config/has_statx_syscall.cpp"
+
+libs/filesystem/config/has_statx_syscall.cpp:11:10: fatal error: 'linux/stat.h' file not found
+#include <linux/stat.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/filesystem/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_statx_syscall.o...
+...failed updating 1 target...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_auto_declarations.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_AUTO_DECLARATIONS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_auto_declarations.o" "libs/config/checks/test_case.cpp"
+
+...updated 4 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_constexpr.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_CONSTEXPR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_constexpr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_defaulted_functions.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_DEFAULTED_FUNCTIONS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_defaulted_functions.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_final.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_FINAL  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_final.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_mutex.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_MUTEX  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_mutex.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_tuple.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_TUPLE  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_tuple.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_lambdas.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_LAMBDAS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_lambdas.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_noexcept.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NOEXCEPT  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_noexcept.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_nullptr.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NULLPTR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_nullptr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_rvalue_references.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_RVALUE_REFERENCES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_rvalue_references.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_template_aliases.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_TEMPLATE_ALIASES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_template_aliases.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_thread_local.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_THREAD_LOCAL  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_thread_local.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_variadic_templates.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_VARIADIC_TEMPLATES  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_variadic_templates.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_test.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DBOOST_HAS_ICU=1 -DNDEBUG  -I"." -I"/opt/homebrew/opt/icu4c/include"  -c -o "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_test.o" "libs/regex/build/has_icu_test.cpp"
+
+darwin.link bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu
+
+    "clang++" -L"/opt/homebrew/opt/icu4c/bin" -L"/opt/homebrew/opt/icu4c/lib" -o "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu" "bin.v2/libs/regex/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_test.o"   -licudata -licui18n -licuuc    -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 5 targets...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/zlib_h.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/zlib_h.o" "bin.v2/standalone/ac/zlib_h.cpp"
+
+...updated 4 targets...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-z.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-z.o" "bin.v2/standalone/ac/main-z.cpp"
+
+darwin.link bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/z
+
+    "clang++"  -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/z" "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-z.o"    -lz   -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/bzlib_h.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/bzlib_h.o" "bin.v2/standalone/ac/bzlib_h.cpp"
+
+...updated 1 target...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-bz2.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DNDEBUG    -c -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-bz2.o" "bin.v2/standalone/ac/main-bz2.cpp"
+
+darwin.link bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/bz2
+
+    "clang++"  -o "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/bz2" "bin.v2/standalone/ac/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/main-bz2.o"    -lbz2   -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_decltype.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_DECLTYPE  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_decltype.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/check_basic_alignas.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/json/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/check_basic_alignas.o" "libs/json/check/basic_alignas.cpp"
+
+...updated 4 targets...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_obj.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_obj.o" "libs/locale/src/../build/has_iconv.cpp"
+
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv" "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_obj.o"       -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+Undefined symbols for architecture arm64:
+  "_iconv_open", referenced from:
+      _main in has_iconv_libc_obj.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+...failed darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv...
+...failed updating 1 target...
+...updated 4 targets...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_ext.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_ext.o" "libs/locale/src/../build/has_iconv.cpp"
+
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_external_iconv
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_external_iconv" "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_iconv_libc_ext.o"   -liconv    -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_obj.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_obj.o" "libs/locale/src/../build/has_icu_test.cpp"
+
+libs/locale/src/../build/has_icu_test.cpp:26:12: warning: unused variable 'c' [-Wunused-variable]
+   UChar32 c = ::u_charFromName(U_UNICODE_CHAR_NAME, "GREEK SMALL LETTER ALPHA", &err);
+           ^
+1 warning generated.
+darwin.link bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu
+
+    "clang++"  -o "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu" "bin.v2/libs/locale/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_icu_obj.o"   -licudata -licui18n -licuuc    -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/atomic_int32.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/atomic-int32/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/atomic_int32.o" "libs/log/config/atomic-int32/atomic_int32.cpp"
+
+...updated 5 targets...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/native_syslog.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/native-syslog/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/native_syslog.o" "libs/log/config/native-syslog/native_syslog.cpp"
+
+...updated 5 targets...
+...found 5 targets...
+...updating 5 targets...
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi"
+    
+common.mkdir bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o" "libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp"
+
+libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp:17:40: error: use of undeclared identifier 'PTHREAD_MUTEX_ROBUST'
+    pthread_mutexattr_setrobust(&attr, PTHREAD_MUTEX_ROBUST);
+                                       ^
+libs/log/config/pthread-mutex-robust/pthread_mutex_robust.cpp:26:15: error: use of undeclared identifier 'pthread_mutex_consistent'; did you mean 'pthread_mutex_destroy'?
+        err = pthread_mutex_consistent(&m);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              pthread_mutex_destroy
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include/pthread.h:369:5: note: 'pthread_mutex_destroy' declared here
+int pthread_mutex_destroy(pthread_mutex_t *);
+    ^
+2 errors generated.
+...failed darwin.compile.c++ bin.v2/libs/log/config/pthread-mutex-robust/darwin-13.1.6/release/link-static/pch-off/threading-multi/visibility-hidden/pthread_mutex_robust.o...
+...failed updating 1 target...
+...updated 4 targets...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_gcc_visibility.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_gcc_visibility.o" "libs/math/config/has_gcc_visibility.cpp"
+
+...updated 4 targets...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/sfinae_expr.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_SFINAE_EXPR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/sfinae_expr.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_unified_initialization_syntax.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_UNIFIED_INITIALIZATION_SYNTAX  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_unified_initialization_syntax.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_initializer_list.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_INITIALIZER_LIST  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_initializer_list.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_chrono.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_CHRONO  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_chrono.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_numeric_limits.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NUMERIC_LIMITS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_numeric_limits.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_array.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_ARRAY  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_array.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_atomic.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_ATOMIC  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_atomic.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_type_traits.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_TYPE_TRAITS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_hdr_type_traits.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_allocator.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_ALLOCATOR  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_allocator.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_explicit_conversion_operators.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_EXPLICIT_CONVERSION_OPERATORS  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_explicit_conversion_operators.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_long_double_support.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/math/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_long_double_support.o" "libs/math/config/has_long_double_support.cpp"
+
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+darwin.compile.c++ bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_static_assert.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_STATIC_ASSERT  -I"."  -c -o "bin.v2/libs/config/checks/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_static_assert.o" "libs/config/checks/test_case.cpp"
+
+...updated 1 target...
+...found 4 targets...
+...updating 4 targets...
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_moveable_fstreams.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/cxx11_moveable_fstreams.o" "libs/nowide/config/check_movable_fstreams.cpp"
+
+...updated 4 targets...
+...found 2 targets...
+...updating 2 targets...
+darwin.compile.c++ bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/check_lfs_support.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/check_lfs_support.o" "libs/nowide/config/check_lfs_support.cpp"
+
+darwin.link bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/lfs_support
+
+    "clang++"  -o "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/lfs_support" "bin.v2/libs/nowide/config/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/check_lfs_support.o"       -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+...updated 2 targets...
+...found 6 targets...
+...updating 6 targets...
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi"
+    
+common.mkdir bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden
+
+        mkdir -p "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_backtrace.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_backtrace.o" "libs/stacktrace/build/has_backtrace.cpp"
+
+libs/stacktrace/build/has_backtrace.cpp:7:10: fatal error: 'backtrace.h' file not found
+#include <backtrace.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_backtrace.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>libbacktrace_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>has_backtrace.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>libbacktrace.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>libbacktrace_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...updated 3 targets...
+...found 3 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_addr2line.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_addr2line.o" "libs/stacktrace/build/has_addr2line.cpp"
+
+darwin.link bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/addr2line_exe
+
+    "clang++"  -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/addr2line_exe" "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_addr2line.o"       -fvisibility=hidden -fvisibility-inlines-hidden -Wl,-dead_strip -no_dead_strip_inits_and_terms -arch arm64 -stdlib=libc++
+       
+
+ld: warning: option -no_dead_strip_inits_and_terms is obsolete and being ignored
+Jamfile</private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/stacktrace/build>.mp_simple_run_action bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/addr2line.output
+
+      bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/addr2line_exe > bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/addr2line.output
+
+sh: /usr/bin/addr2line: No such file or directory
+...updated 3 targets...
+...found 3 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg.o" "libs/stacktrace/build/has_windbg.cpp"
+
+libs/stacktrace/build/has_windbg.cpp:8:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbg_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>has_windbg.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbg.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbg_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...found 3 targets...
+...updating 3 targets...
+darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg_cached.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DBOOST_ALL_NO_LIB=1 -DNDEBUG  -I"."  -c -o "bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg_cached.o" "libs/stacktrace/build/has_windbg_cached.cpp"
+
+libs/stacktrace/build/has_windbg_cached.cpp:11:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+...failed darwin.compile.c++ bin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden/has_windbg_cached.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbgCached_exe for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>has_windbg_cached.o...
+...skipped <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbgCached.output for lack of <pbin.v2/libs/stacktrace/build/darwin-13.1.6/release/link-static/threading-multi/visibility-hidden>WinDbgCached_exe...
+...failed updating 1 target...
+...skipped 2 targets...
+...found 2 targets...
+...updating 2 targets...
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/visibility-hidden
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o
+
+    "clang++"   -fvisibility-inlines-hidden -fPIC -O3 -Wall -fvisibility=hidden -dynamic -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DCHECK="BOOST_COMP_GNUC >= BOOST_VERSION_NUMBER(4,3,0)" -DNDEBUG  -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0" -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/include"  -c -o "bin.v2/check/predef/darwin-13.1.6/release/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o" "/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp"
+
+In file included from /private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp:7:
+/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc.h:11:9: error: "FAILED"
+#       error "FAILED"
+        ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o...
+...failed updating 1 target...
+...updated 1 target...
+...found 2 targets...
+...updating 2 targets...
+common.mkdir bin.v2/check/predef/darwin-13.1.6/release/link-static/visibility-hidden
+
+        mkdir -p "bin.v2/check/predef/darwin-13.1.6/release/link-static/visibility-hidden"
+    
+darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/link-static/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o
+
+    "clang++"   -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -gdwarf-2 -fexceptions -Wno-inline -std=c++14 -stdlib=libc++ -DCHECK="BOOST_COMP_GNUC >= BOOST_VERSION_NUMBER(4,3,0)" -DNDEBUG  -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0" -I"/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/include"  -c -o "bin.v2/check/predef/darwin-13.1.6/release/link-static/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o" "/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp"
+
+In file included from /private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc_as_cpp.cpp:7:
+/private/tmp/boostA1.76-20220727-26564-xkvx5p/boost_1_76_0/libs/predef/tools/check/predef_check_cc.h:11:9: error: "FAILED"
+#       error "FAILED"
+        ^
+1 error generated.
+...failed darwin.compile.c++ bin.v2/check/predef/darwin-13.1.6/release/link-static/visibility-hidden/predef_check_cc_09a06289f4560e2f553bb0cbbec71436.o...
+...failed updating 1 target...
+...updated 1 target...
+...found 1 target...
+...updating 1 target...
+
+file /private/tmp/jam6865a9bc.000
+# Automatically generated by B2.
+# Do not edit.
+
+module config-cache {
+  set "default address-model-32-bit-64-bit-<toolset-clang:version>13.1-<toolset>clang" : "2" ;
+  set "default architecture-arm-mips1-power-riscv-s390x-sparc-x86-combined-<toolset-clang:version>13.1-<toolset>clang" : "1" ;
+  set "default address-model-32-bit-64-bit-<toolset-darwin:version>13.1.6-<toolset>darwin" : "2" ;
+  set "default architecture-arm-mips1-power-riscv-s390x-sparc-x86-combined-<toolset-darwin:version>13.1.6-<toolset>darwin" : "1" ;
+  set "C++11 mutex-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "lockfree boost::atomic_flag-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_mtim-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimensec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimespec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_birthtim-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimensec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimespec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has statx-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has statx syscall-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "cxx11_auto_declarations-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_final-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_mutex-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_auto_declarations-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_final-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_mutex-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has_icu builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "ac-library-zlib-<link>shared" : "%default" "z" "<link>shared" ;
+  set "ac-library-bzip2-<link>shared" : "%default" "bz2" "<link>shared" ;
+  set "cxx11_decltype-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_basic_alignas-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "iconv (libc)-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "iconv (separate)-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "icu-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native atomic int32 supported-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native syslog supported-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "pthread supports robust mutexes-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "gcc visibility-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "sfinae_expr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_unified_initialization_syntax-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_initializer_list-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_chrono-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_numeric_limits-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_array-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_atomic-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_type_traits-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_allocator-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_explicit_conversion_operators-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "long double support-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_static_assert-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "std::fstream is moveable and swappable-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "Has Large File Support-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "libbacktrace builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "libbacktrace builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "addr2line builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "WinDbg builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbg builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "BOOST_COMP_GNUC >= 4.3.0-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "BOOST_COMP_GNUC >= 4.3.0-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "C++11 mutex-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "lockfree boost::atomic_flag-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_mtim-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimensec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimespec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_birthtim-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimensec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimespec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has statx-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has statx syscall-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "cxx11_auto_declarations-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_final-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_mutex-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_auto_declarations-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_final-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_mutex-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has_icu builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "ac-library-zlib-<link>static" : "%default" "z" "<link>static" ;
+  set "ac-library-bzip2-<link>static" : "%default" "bz2" "<link>static" ;
+  set "cxx11_decltype-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_basic_alignas-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "iconv (libc)-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "iconv (separate)-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "icu-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native atomic int32 supported-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native syslog supported-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "pthread supports robust mutexes-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "gcc visibility-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "sfinae_expr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_unified_initialization_syntax-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_initializer_list-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_chrono-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_numeric_limits-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_array-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_atomic-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_type_traits-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_allocator-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_explicit_conversion_operators-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "long double support-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_static_assert-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "std::fstream is moveable and swappable-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "Has Large File Support-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "libbacktrace builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "libbacktrace builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "addr2line builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "WinDbg builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbg builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<threading>multi-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtim-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimensec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimespec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_birthtim-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimensec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimespec-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has statx-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has statx syscall-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has_icu builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_decltype-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_basic_alignas-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native atomic int32 supported-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native syslog supported-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "pthread supports robust mutexes-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "gcc visibility-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "sfinae_expr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_auto_declarations-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_unified_initialization_syntax-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_initializer_list-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_chrono-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_numeric_limits-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_array-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_atomic-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_type_traits-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_allocator-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_explicit_conversion_operators-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "long double support-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_static_assert-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "std::fstream is moveable and swappable-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "Has Large File Support-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "libbacktrace builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "libbacktrace builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "addr2line builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "WinDbg builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbg builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "BOOST_COMP_GNUC >= 4.3.0-<deduced-address-model>64-<deduced-architecture>arm-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "BOOST_COMP_GNUC >= 4.3.0-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtim-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimensec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_mtimespec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has stat::st_birthtim-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimensec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has stat::st_birthtimespec-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "has statx-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has statx syscall-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "has_icu builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_constexpr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_decltype-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_tuple-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_template_aliases-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_variadic_templates-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_basic_alignas-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native atomic int32 supported-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "native syslog supported-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "pthread supports robust mutexes-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "gcc visibility-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_noexcept-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_rvalue_references-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "sfinae_expr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_auto_declarations-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_lambdas-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_unified_initialization_syntax-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_initializer_list-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_chrono-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_thread_local-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_nullptr-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_numeric_limits-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_array-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_atomic-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_hdr_type_traits-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_allocator-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_explicit_conversion_operators-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "long double support-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_defaulted_functions-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "cxx11_static_assert-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "std::fstream is moveable and swappable-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "Has Large File Support-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "libbacktrace builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "libbacktrace builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "addr2line builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "true" ;
+  set "WinDbg builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbg builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+  set "WinDbgCached builds-<build>no-<deduced-address-model>64-<deduced-architecture>arm-<link>static-<threadapi>pthread-<toolset-darwin:version>13.1.6-<toolset>darwin-<variant>release-<visibility>hidden" : "false" ;
+}
+
+config-cache.write bin.v2/project-cache.jam
+
+    cat "/private/tmp/jam6865a9bc.000" > "bin.v2/project-cache.jam"
+
+...updated 1 target...
